@@ -1,0 +1,10 @@
+{
+  "name": "puppetfinland-bash_prompt",
+  "version": "0.1.0",
+  "author": "Puppet-Finland team",
+  "summary": "Make bash prompts more informative",
+  "license": "BSD-2-Clause",
+  "source": "https://github.com/Puppet-Finland/puppet-bash_prompt.git",
+  "project_page": "https://github.com/Puppet-Finland/puppet-bash_prompt",
+  "dependencies": []
+}
