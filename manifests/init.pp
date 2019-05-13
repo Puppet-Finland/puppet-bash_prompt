@@ -34,8 +34,9 @@ class bash_prompt
   }
 
   $bashrc_file = $::osfamily ? {
-    'RedHat' => '/root/.bashrc',
-    'Debian' => '/etc/bash.bashrc',
+    'RedHat'  => '/root/.bashrc',
+    'Debian'  => '/etc/bash.bashrc',
+    'FreeBSD' => '/etc/profile',
   }
 
   $prompt_string = $suffix ? {
