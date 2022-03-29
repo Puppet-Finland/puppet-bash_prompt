@@ -47,6 +47,6 @@ class bash_prompt
   file_line { 'show-deployment-in-root-prompt':
     ensure => 'present',
     path   => $bashrc_file,
-    line   => "export PS1=\"(${prompt_string}) \u@\h:\w\$ \"",
+    line   => "export PS1=\"(${prompt_string}) \\u@\\h:\\w\\$ \"",
   }
 }
